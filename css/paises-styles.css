@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/portada.png);
+  background-size: 100%;
+  font-family: sans-serif;
+  text-align: justify;
+  display: block;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: auto;
+  color: #fff;
+}
+
+p {
+  width: 80%;
+}
+
+header,
+footer {
+  width: 100%;
+  margin: 0px auto;
+}
+
+img {
+  border: 0px;
+}
+
+header {
+  padding-bottom: 40px;
+}
+
+.header-area .header-logo {
+  height: 200px;
+  width: 30%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-area .header-title {
+  height: 200px;
+  width: 70%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  width: 65%;
+  margin: 30px auto;
+}
+
+header div .title {
+  padding: 0px;
+  margin-right: 50px;
+}
+
+header .logotipo {
+  height: 210px;
+  background-image: url(../img/covid-19.jpg);
+  background-size: cover;
+}
+
+header .logotipo .logo {
+  width: 35%;
+  padding-left: 70%;
+  margin: auto;
+}
+
+header .logotipo .title {
+  width: 65%;
+  padding-right: 30%;
+  margin: auto;
+}
+
+header nav {
+  background-size: 100% auto;
+  overflow: hidden;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+
+header nav ul li a {
+  padding: 12px 35px;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li .inicio {
+  padding: 8.5px 9px;
+  display: block;
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  background: #257ac2;
+}
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  background-color: #0d6cbc;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
+}
+
+.header-area .top-social-info {
+  float: right;
+  display: flex;
+  justify-items: center;
+  padding-right: 7px;
+}
+
+.header-area .top-social-info a {
+  float: left;
+  width: 38px;
+  height: 38px;
+  border-radius: 60%;
+  text-align: center;
+  line-height: 36px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.header-area .top-social-info a:hover,
+.header-area .top-social-info a:focus {
+  background: #257ac2;
+}
+
+#fb,
+#tw,
+#ig {
+  width: 100%;
+}
+
+.single-slide {
+  position: relative;
+  z-index: 99;
+  width: 100%;
+  height: auto;
+  background-color: #202022;
+  overflow: hidden;
+}
+
+.title-slide {
+  padding: 3%;
+  background-color: #0d6cbc;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.text-slide {
+  padding: 5%;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+}
+
+.text-slide ul {
+  padding-left: 6%;
+}
+
+.img-slide {
+  padding: 5%;
+  background-color: #f4f4f4;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-slide img {
+  width: 100%;
+}
+
+.main .imagenes {
+  width: 100%;
+  float: left;
+}
+
+.main .imagenes article {
+  padding: 0px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.main .imagenes img {
+  display: inline-block;
+}
+
+footer {
+  color: #fff;
+  clear: both;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+footer .footer {
+  width: 100%;
+  height: 300px;
+  background: #0d6cbc;
+  color: #fff;
+  font-size: 0.78em;
+  padding-bottom: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#pais{
+  margin: 35px;
+}
+
+#paisnombre{
+  color: black;
+  
+}
